@@ -1,8 +1,7 @@
-
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
-import { AppRoute } from "./app.routes";
+import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 
 import { AuthComponent } from "./layouts/auth/auth.component";
@@ -20,7 +19,7 @@ import { IndexComponent } from "./layouts/index.component";
       RegisterComponent,
       IndexComponent,
     ],
-    imports: [BrowserModule, AppRoute],
+    imports: [BrowserModule, AppRoutingModule],
     providers: [],
     bootstrap: [AppComponent],
   })

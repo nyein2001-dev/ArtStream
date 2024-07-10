@@ -1,8 +1,11 @@
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { AuthComponent } from './layouts/auth/auth.component';
+
 import { LoginComponent } from './layouts/auth/login/login.component';
 import { RegisterComponent } from './layouts/auth/register/register.component';
-import { NgModule } from '@angular/core';
+
 import { IndexComponent } from './layouts/index.component';
 
 export const routes: Routes = [
@@ -10,20 +13,19 @@ export const routes: Routes = [
         path: "auth",
         component: AuthComponent,
         children: [
-            { path: "login", component: LoginComponent },
-            { path: "register", component: RegisterComponent },
-            { path: "", redirectTo: "login", pathMatch: "full" }
-        ]
-    },
-    {path: "", component: IndexComponent},
-    {path: "**", redirectTo: "", pathMatch: "full"}
-];
+          { path: "login", component: LoginComponent },
+          { path: "register", component: RegisterComponent },
+          { path: "", redirectTo: "login", pathMatch: "full" },
+        ],
+      },
+      { path: "", component: IndexComponent },
+      { path: "**", redirectTo: "", pathMatch: "full" },
+    ];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
-
-export class AppRoute {}
+export class AppRoutingModule {}
 
 
