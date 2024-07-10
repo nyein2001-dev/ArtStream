@@ -10,10 +10,12 @@ import { LoginComponent } from "./layouts/auth/login/login.component";
 import { RegisterComponent } from "./layouts/auth/register/register.component";
 
 import { AuthNavbarComponent } from "./components/auth/auth-navbar/auth-navbar.component";
+import { FooterSmallComponent } from "./components/auth/footers/footer-small/footer-small.component";
 
 @NgModule({
     declarations: [
         AppComponent,
+        FooterSmallComponent,
         AuthNavbarComponent,
         AuthComponent,
         LoginComponent,

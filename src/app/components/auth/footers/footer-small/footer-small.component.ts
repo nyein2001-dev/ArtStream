@@ -1,12 +1,24 @@
-import { Component } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-footer-small',
-  standalone: true,
-  imports: [],
   templateUrl: './footer-small.component.html',
-  styleUrl: './footer-small.component.css'
 })
-export class FooterSmallComponent {
+export class FooterSmallComponent implements OnInit {
+  date = new Date().getFullYear()
 
+  @Input()
+  get absolute(): boolean {
+    return this._absolute;
+  }
+
+  set absolute(absolute: boolean) {
+    this._absolute = absolute === undefined ? false : absolute;
+  }
+
+  private _absolute = false;
+
+  constructor() { }
+
+  ngOnInit(): void { }
 }
