@@ -11,11 +11,12 @@ export const routes: Routes = [
     path: "auth",
     component: AuthComponent,
     children: [
+      { path: "login", component: LoginComponent },
       { path: "register", component: RegisterComponent },
       { path: "", redirectTo: "login", pathMatch: "full" },
     ],
   },
-  { path: "", component: LoginComponent },
+  { path: "", redirectTo: "./auth/login", pathMatch:"full" },
   { path: "**", redirectTo: "", pathMatch: "full" },
 ];
 
