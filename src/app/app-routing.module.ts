@@ -8,16 +8,16 @@ import { RegisterComponent } from './layouts/auth/register/register.component';
 
 export const routes: Routes = [
   {
-    path: "auth",
+    path: 'auth',
     component: AuthComponent,
     children: [
-      { path: "login", component: LoginComponent },
-      { path: "register", component: RegisterComponent },
-      { path: "", redirectTo: "login", pathMatch: "full" },
+      { path: 'login', component: LoginComponent },
+      { path: 'register', component: RegisterComponent },
+      { path: '', redirectTo: 'login', pathMatch: 'full' },
     ],
   },
-  { path: "", redirectTo: "./auth/login", pathMatch:"full" },
-  { path: "**", redirectTo: "", pathMatch: "full" },
+  { path: '', redirectTo: '/auth/login', pathMatch: 'full' },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
 
 @NgModule({
@@ -25,5 +25,3 @@ export const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-
-
