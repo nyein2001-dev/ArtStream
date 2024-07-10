@@ -6,26 +6,23 @@ import { AuthComponent } from './layouts/auth/auth.component';
 import { LoginComponent } from './layouts/auth/login/login.component';
 import { RegisterComponent } from './layouts/auth/register/register.component';
 
-import { IndexComponent } from './layouts/index.component';
-
 export const routes: Routes = [
-    {
-        path: "auth",
-        component: AuthComponent,
-        children: [
-          { path: "login", component: LoginComponent },
-          { path: "register", component: RegisterComponent },
-          { path: "", redirectTo: "login", pathMatch: "full" },
-        ],
-      },
-      { path: "", component: IndexComponent },
-      { path: "**", redirectTo: "", pathMatch: "full" },
-    ];
+  {
+    path: "auth",
+    component: AuthComponent,
+    children: [
+      { path: "register", component: RegisterComponent },
+      { path: "", redirectTo: "login", pathMatch: "full" },
+    ],
+  },
+  { path: "", component: LoginComponent },
+  { path: "**", redirectTo: "", pathMatch: "full" },
+];
 
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
-    exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
 
 
