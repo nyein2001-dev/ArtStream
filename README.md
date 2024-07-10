@@ -1,6 +1,6 @@
 # ShopGuard
 
-ShopSecure is a shopping dashboard application that provides a seamless user experience for managing shopping activities. This project includes a login and registration system with Firebase authentication and a user-friendly dashboard designed in Angular. The project is a demonstration of modern web development practices, focusing on authentication and dashboard UI.
+ShopGuard is a shopping dashboard application that provides a seamless user experience for managing shopping activities. This project includes a login and registration system with Firebase authentication and a user-friendly dashboard designed in Angular. The project is a demonstration of modern web development practices, focusing on authentication and dashboard UI.
 
 ## Features
 
