@@ -6,7 +6,18 @@ import { AuthComponent } from './layouts/auth/auth.component';
 import { LoginComponent } from './layouts/auth/login/login.component';
 import { RegisterComponent } from './layouts/auth/register/register.component';
 
+import { BoardComponent } from './layouts/board/board.component';
+import { HomeComponent } from './layouts/board/home/home.component';
+
 export const routes: Routes = [
+  {
+    path: 'board',
+    component: BoardComponent,
+    children: [
+      { path: 'home', component: HomeComponent },
+      { path: '', redirectTo: 'main', pathMatch: 'full' },
+    ],
+  },
   {
     path: 'auth',
     component: AuthComponent,

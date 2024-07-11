@@ -12,14 +12,23 @@ import { RegisterComponent } from "./layouts/auth/register/register.component";
 import { AuthNavbarComponent } from "./components/auth/auth-navbar/auth-navbar.component";
 import { FooterSmallComponent } from "./components/auth/footers/footer-small/footer-small.component";
 
+import { BoardComponent } from "./layouts/board/board.component";
+import { HomeComponent } from "./layouts/board/home/home.component";
+import { HeaderComponent } from "./components/board/header/header.component";
+import { NavbarComponent } from "./components/board/navbar/navbar.component";
+
 @NgModule({
     declarations: [
         AppComponent,
-        FooterSmallComponent,
-        AuthNavbarComponent,
         AuthComponent,
         LoginComponent,
         RegisterComponent,
+        AuthNavbarComponent,
+        FooterSmallComponent,
+        BoardComponent,
+        HomeComponent,
+        HeaderComponent,
+        NavbarComponent
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
