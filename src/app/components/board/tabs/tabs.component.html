@@ -1,5 +1,5 @@
 <aside class="mx-10 xl:translate-x-0 w-[260px]">
-    <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
+    <div class="mb-4 border-b border-gray-200">
         <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" role="tablist">
             <li class="me-2" role="presentation">
                 <div class="inline-block p-4 border-b-2 rounded-t-lg cursor-pointer" (click)="toggleTab('artists')"
@@ -26,7 +26,7 @@
         <div id="default-tab-content">
             <div *ngIf="activeTab === 'artists'" role="tabpanel" aria-labelledby="artists-tab">
                 <div *ngFor="let artist of artists"
-                    class="p-4 my-4 rounded-lg border-gray-200 border-[1px] h-32 w-full bg-full bg-gray-50 dark:bg-gray-800 relative"
+                    class="p-4 my-4 rounded-lg border-gray-200 border-[1px] h-32 w-full bg-full bg-gray-50 relative"
                     [style.background-image]="'url(' + artist.imageUrl + ')'"
                     style="background-size: cover; background-position: center;">
                     <div class="absolute bottom-0 left-0 w-full px-2 pb-2 text-white flex items-center">
@@ -44,7 +44,7 @@
             </div>
             <div *ngIf="activeTab === 'photographers'" role="tabpanel" aria-labelledby="photographers-tab">
                 <div *ngFor="let photographer of photographers"
-                    class="p-4 my-4 rounded-lg border-gray-200 border-[1px] h-32 w-full bg-full bg-gray-50 dark:bg-gray-800 relative"
+                    class="p-4 my-4 rounded-lg border-gray-200 border-[1px] h-32 w-full bg-full bg-gray-50 relative"
                     [style.background-image]="'url(' + photographer.imageUrl + ')'"
                     style="background-size: cover; background-position: center;">
                     <div class="absolute bottom-0 left-0 w-full px-2 pb-2 text-white flex items-center">
