@@ -1,4 +1,42 @@
-<aside id="application-sidebar-brand"
-    class="card-bg mx-10 hs-overlay rounded-xl hs-overlay-open:translate-x-0 -translate-x-full  transform xl:block xl:translate-x-0 xl:end-auto with-vertical h-[80px] z-[999] flex-shrink-0 border-[1px] border-gray-400 left-sidebar  transition-all duration-300">
-    <p>home works!</p>
-</aside>
+<div *ngFor="let post of posts" class="rounded-lg mx-10 md:mx-10">
+    <div class="max-w-2xl mx-auto bg-white shadow-md rounded-xl my-4 px-4 py-3 flex-shrink-0 overflow-hidden">
+        <div class="flex justify-between items-center">
+            <div class="post-header flex items-center">
+                <img class="h-10 w-10 rounded-lg object-cover mr-3" [src]="post.profileImageUrl" alt="Profile Image">
+                <div>
+                    <h1 class="text-lg font-semibold">{{ post.name }}</h1>
+                    <p class="text-sm text-gray-600">&#64;{{ post.username }}</p>
+                </div>
+            </div>
+            <div class="text-gray-600 hover:text-gray-900 mr-4 cursor-pointer">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M12 6a1 1 0 100-2 1 1 0 000 2zm0 5a1 1 0 100-2 1 1 0 000 2zm0 5a1 1 0 100-2 1 1 0 000 2z"
+                        clip-rule="evenodd" />
+                </svg>
+            </div>
+        </div>
+        <div class="relative items-center px-4">
+            <p class="text-sm mb-2">{{ post.content }}</p>
+            <div class="relative">
+                <img *ngIf="post.imageUrl" class="w-full h-auto object-cover rounded-lg" [src]="post.imageUrl"
+                    alt="Post Image">
+                <img src="assets/icon/heart-action2.svg" alt="Like Icon" class="absolute top-5 right-5 w-6 h-6">
+            </div>
+        </div>
+        <div class="flex px-4 py-2 mt-2 rounded-b-xl">
+            <div class="flex items-center text-gray-600 hover:text-blue-500 cursor-pointer">
+                <img src="assets/icon/heart-action.svg" alt="Like Icon" class="w-4 h-4 mr-2">
+                <p class="text-lg font-semibold text-black">9.8k</p>
+            </div>
+            <div class="flex items-center text-gray-600 mx-3 hover:text-blue-500 cursor-pointer">
+                <img src="assets/icon/comment.svg" alt="Comment Icon" class="w-4 h-4 mr-2">
+                <p class="text-lg font-semibold text-black">8.6k</p>
+            </div>
+            <div class="flex items-center text-gray-600 mx-3 hover:text-blue-500 cursor-pointer">
+                <img src="assets/icon/share.svg" alt="Share Icon" class="w-4 h-4 mr-2">
+                <p class="text-lg font-semibold text-black">7.2k</p>
+            </div>
+        </div>
+    </div>
+</div>
