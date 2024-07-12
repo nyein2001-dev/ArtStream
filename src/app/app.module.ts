@@ -16,6 +16,7 @@ import { BoardComponent } from "./layouts/board/board.component";
 import { HomeComponent } from "./layouts/board/home/home.component";
 import { HeaderComponent } from "./components/board/header/header.component";
 import { NavbarComponent } from "./components/board/navbar/navbar.component";
+import { TabsComponent } from "./components/board/tabs/tabs.component";
 
 @NgModule({
     declarations: [
@@ -28,7 +29,8 @@ import { NavbarComponent } from "./components/board/navbar/navbar.component";
         BoardComponent,
         HomeComponent,
         HeaderComponent,
-        NavbarComponent
+        NavbarComponent,
+        TabsComponent
     ],
     imports: [BrowserModule, AppRoutingModule],
     providers: [],
