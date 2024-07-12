@@ -1,11 +1,11 @@
-<div class="mx-10 md:mx-10" style="height: 550px; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
+<div class="mx-4 md:mx-10" style="height: 87vh; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
     <style>
         .mx-10::-webkit-scrollbar {
             display: none;
         }
     </style>
     <div *ngFor="let post of posts">
-        <div class="max-w-2xl mx-auto bg-white shadow-md rounded-xl my-4 px-4 py-3 flex-shrink-0 overflow-hidden">
+        <div class="max-w-2xl mx-auto bg-white shadow-md rounded-xl my-4 overflow-hidden">
             <div class="flex justify-between items-center">
                 <div class="post-header flex items-center">
                     <img class="h-10 w-10 rounded-lg object-cover mr-3" [src]="post.profileImageUrl"
@@ -47,7 +47,8 @@
             </div>
         </div>
     </div>
-    <div class=" my-5 " style="overflow-x: auto; overflow-y: hidden; -ms-overflow-style: none; scrollbar-width: none;">
+    <div class=" max-w-2xl mx-auto my-4 overflow-hidden"
+        style="overflow-x: auto; overflow-y: hidden; -ms-overflow-style: none; scrollbar-width: none;">
         <style>
             .mx-10::-webkit-scrollbar {
                 display: none;
@@ -55,9 +56,9 @@
         </style>
         <div id="default-tab-content" class="flex">
             <div *ngFor="let post of posts">
-                <div class="relative items-center mx-2">
+                <div class=" relative items-center mx-2">
                     <img *ngIf="post.imageUrl"
-                        class=" border-[1px] min-w-[252px] min-h-[180px] bg-full object-cover rounded-lg"
+                        class="border border-gray-300 min-w-[252px] min-h-[180px] object-cover rounded-lg"
                         [src]="post.imageUrl" alt="Post Image">
                     <p class="text-base font-semibold mb-2 line-clamp-1">{{ post.content }}</p>
                     <div class="flex justify-between items-center text-center">
