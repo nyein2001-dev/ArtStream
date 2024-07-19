@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./src/assets/favicon.png" alt="Art Stream">
+</p>
+
 # ArtStream
 
 Welcome to **ArtStream** – a dynamic platform where artists and photographers can post and sell their work. Discover and follow talented creators, view popular and recommended artists, and shop unique pieces all in one place.
