@@ -66,6 +66,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 - **Login/Signup**: Use the authentication forms to register a new user or log in with an existing account.
 - **Dashboard**: Once logged in, you can access the shopping dashboard to manage your shopping activities.
 
+## Repo Activities
+
+![Alt](https://repobeats.axiom.co/api/embed/1d6b8f96d23c424709021c9c8981e0bfcaeaaa96.svg "Repobeats analytics image")
+
 ## Contributing
 
 Feel free to submit issues, pull requests, or feature requests. We welcome all contributions to improve **ArtStream**.
