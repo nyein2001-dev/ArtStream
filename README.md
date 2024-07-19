@@ -1,13 +1,14 @@
-# ShopGuard
+# ArtStream
 
-ShopGuard is a shopping dashboard application that provides a seamless user experience for managing shopping activities. This project includes a login and registration system with Firebase authentication and a user-friendly dashboard designed in Angular. The project is a demonstration of modern web development practices, focusing on authentication and dashboard UI.
+Welcome to **ArtStream** – a dynamic platform where artists and photographers can post and sell their work. Discover and follow talented creators, view popular and recommended artists, and shop unique pieces all in one place.
 
 ## Features
 
-- **Authentication**: User authentication (login and registration) using Firebase Authentication.
-- **Dashboard**: Responsive dashboard interface for managing shopping activities.
-- **Angular Framework**: Built with Angular for scalable and maintainable front-end development.
-- **Design Conversion**: Conversion of Adobe XD design to functional Angular components.
+- **Newsfeed:** Stay updated with the latest posts from your favorite artists and photographers.
+- **Shop:** Browse and purchase unique pieces of art and photography directly from the creators.
+- **Wallet:** Manage your transactions and keep track of your purchases.
+- **Popular and Recommended Lists:** Easily find popular and recommended artists and photographers to follow.
+
 
 ## Getting Started
 
@@ -63,8 +64,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Contributing
 
-Feel free to submit issues, pull requests, or feature requests. We welcome all contributions to improve ShopGuard.
+Feel free to submit issues, pull requests, or feature requests. We welcome all contributions to improve **ArtStream**.
 
 ---
 
-Happy Weather Tracking with SkySnap!
+Thank you for visiting **ArtStream**! Enjoy discovering and sharing amazing art.
