@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./src/assets/favicon.png" alt="Art Stream" width="300" height="300">
+  <img src="/public/assets/favicon.png" alt="Art Stream" width="300" height="300">
 </p>
 
 # ArtStream
@@ -12,6 +12,10 @@ Welcome to **ArtStream** – a dynamic platform where artists and photographers 
 - **Shop:** Browse and purchase unique pieces of art and photography directly from the creators.
 - **Wallet:** Manage your transactions and keep track of your purchases.
 - **Popular and Recommended Lists:** Easily find popular and recommended artists and photographers to follow.
+
+## Project Design
+
+![Folder Design](folder_structure.png)
 
 
 ## Getting Started
