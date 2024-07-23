@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="UteyuDl4Mq-HaSf08_8Y" name="Page-1">
+        <mxGraphModel dx="1280" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="60" width="3010" height="1400" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;strong&gt;mx-1&lt;/strong&gt;: Margin-left and margin-right of 0.25rem (4px).&lt;br&gt;&lt;strong&gt;mb-2&lt;/strong&gt;: Margin-bottom of 0.5rem (8px).&lt;br&gt;&lt;strong&gt;flex&lt;/strong&gt;: Flexbox layout for the container.&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;items-center&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Aligns items vertically to the center.&lt;br&gt;&lt;/span&gt;&lt;strong&gt;justify-between&lt;/strong&gt;: Distributes space between children to have equal space around them.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="80" width="620" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;strong&gt;pt-4&lt;/strong&gt;: Padding-top of 1rem (16px)." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Comic Sans MS;fontColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="1450" y="20" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;strong&gt;text-xs&lt;/strong&gt;: Font size of 0.75rem (12px).&lt;br&gt;&lt;strong&gt;font-semibold&lt;/strong&gt;: Semi-bold font weight.&lt;br&gt;&lt;strong&gt;text-muted-foreground/50&lt;/strong&gt;: Muted foreground text color with 50% opacity." style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#3333FF;fontFamily=Comic Sans MS;fontSize=24;fontColor=#FFFFFF;fillColor=#3333FF;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="270" width="620" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#3333FF;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#FFFF00;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="500" width="2990" height="940" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;font color=&quot;#ffff00&quot;&gt;&lt;strong&gt;flex&lt;/strong&gt;: Flexbox layout for the container.&lt;br&gt;&lt;strong&gt;flex-col&lt;/strong&gt;: Arranges children in a column direction.&lt;br&gt;&lt;strong&gt;space-y-1&lt;/strong&gt;: Adds vertical space of 0.25rem (4px) between children.&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#60A917;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="400" width="790" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="25" y="610" width="2975" height="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#1A1A1A;" edge="1" parent="1" source="14" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="App Sidebar Menu" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
+                    <mxGeometry x="1267.5" y="1370" width="490" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;strong&gt;group&lt;/strong&gt;: Sets the element as a group for child selectors.&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;relative&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Positions the element relative to its normal position.&lt;br&gt;&lt;/span&gt;&lt;strong&gt;text-muted-foreground&lt;/strong&gt;: Muted foreground text color.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#60A917;" vertex="1" parent="1">
+                    <mxGeometry x="1100" y="510" width="700" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Svg Icon" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="1280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;strong&gt;pointer-events-none&lt;/strong&gt;: Disables pointer events.&lt;br&gt;&lt;strong&gt;absolute&lt;/strong&gt;: Positions the element absolutely within its relative parent.&lt;br&gt;&lt;strong&gt;m-2&lt;/strong&gt;: Margin of 0.5rem (8px)." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="1080" width="335" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="365" y="1020" width="660" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;strong&gt;flex&lt;/strong&gt;: Flexbox layout for the container.&lt;br&gt;&lt;strong&gt;h-5&lt;/strong&gt;: Height of 1.25rem (20px).&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;cursor-pointer&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Changes the cursor to a pointer when hovered.&lt;br&gt;&lt;/span&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically to the center.&lt;br&gt;&lt;strong&gt;rounded&lt;/strong&gt;: Rounded corners.&lt;br&gt;&lt;strong&gt;text-muted-foreground&lt;/strong&gt;: Muted foreground text color.&lt;br&gt;&lt;strong&gt;hover:bg-card&amp;nbsp;&lt;/strong&gt;: Changes background color on hover.&lt;br&gt;&lt;strong&gt;hover:text foreground&lt;/strong&gt;: Changes text color on hover.&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#76608A;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="740" width="660" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Parent Menu" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="1270" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;strong&gt;ml-10&lt;/strong&gt;: Margin-left of 2.5rem (40px).&lt;br&gt;&lt;strong&gt;truncate&lt;/strong&gt;: Truncates text with ellipsis if it overflows.&lt;br&gt;&lt;strong&gt;text-xs&lt;/strong&gt;: Font size of 0.75rem (12px).&lt;br&gt;&lt;strong&gt;font-semibold&lt;/strong&gt;: Semi-bold font weight.&lt;br&gt;&lt;strong&gt;tracking-wide&lt;/strong&gt;: Wide letter spacing.&lt;br&gt;&lt;strong&gt;focus:outline-none&lt;/strong&gt;: Removes the default outline on focus." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="1080" width="650" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+                    <mxGeometry x="1030" y="970" width="670" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Child Menu" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="1205" y="1270" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font color=&quot;#ffcce6&quot;&gt;&lt;strong style=&quot;&quot;&gt;flex&lt;/strong&gt;: Flexbox layout for the container.&lt;br style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;h-5&lt;/strong&gt;: Height of 1.25rem (20px).&lt;br style=&quot;&quot;&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;cursor-pointer&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Changes the cursor to a pointer when hovered.&lt;br&gt;&lt;/span&gt;&lt;strong style=&quot;&quot;&gt;items-center&lt;/strong&gt;: Aligns items vertically to the center.&lt;br style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;rounded&lt;/strong&gt;: Rounded corners.&lt;br style=&quot;&quot;&gt;&lt;strong style=&quot;&quot;&gt;hover:bg-card&amp;nbsp;&lt;/strong&gt;: Changes background color on hover.&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#BAC8D3;" vertex="1" parent="1">
+                    <mxGeometry x="1060" y="730" width="640" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="&lt;strong&gt;ml-10&lt;/strong&gt;: Margin-left of 2.5rem (40px).&lt;br&gt;&lt;strong&gt;truncate&lt;/strong&gt;: Truncates text with ellipsis if it overflows.&lt;br&gt;&lt;strong&gt;text-xs&lt;/strong&gt;: Font size of 0.75rem (12px).&lt;br&gt;&lt;strong&gt;font-semibold&lt;/strong&gt;: Semi-bold font weight.&lt;br&gt;&lt;strong&gt;tracking-wide&lt;/strong&gt;: Wide letter spacing.&lt;br&gt;&lt;strong&gt;text-muted-foreground&lt;/strong&gt;: Muted foreground text color.&lt;br&gt;&lt;strong&gt;focus:outline-none&lt;/strong&gt;: Removes the default outline on focus.&lt;br&gt;&lt;strong&gt;group-hover&lt;/strong&gt;: Scales the element to 100% on group hover." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="1035" y="970" width="660" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Svg Icon" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="1810" y="1270" width="270" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;strong&gt;pointer-events-none&lt;/strong&gt;: Disables pointer events.&lt;br&gt;&lt;strong&gt;absolute&lt;/strong&gt;: Positions the element absolutely within its relative parent.&lt;br&gt;&lt;strong&gt;top-1&lt;/strong&gt;: Top position of 0.25rem (4px).&lt;br&gt;&lt;strong&gt;right-0&lt;/strong&gt;: Right position of 0 (no margin).&lt;br&gt;&lt;strong&gt;flex&lt;/strong&gt;: Flexbox layout for the container.&lt;br&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically to the center.&lt;br&gt;&lt;strong&gt;p-2&lt;/strong&gt;: Padding of 0.5rem (8px).&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;text-muted-foreground/50&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Muted foreground text color with 50% opacity.&lt;br&gt;&lt;/span&gt;&lt;strong&gt;transition-all&lt;/strong&gt;: Smooth transition for all properties.&lt;br&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;duration-500&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Transition duration of 500ms.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#76608A;" vertex="1" parent="1">
+                    <mxGeometry x="1730" y="720" width="450" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fillColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="2200" y="670" width="790" height="670" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;strong&gt;w-full&lt;/strong&gt;: Full width of the parent container." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#1A1A1A;" vertex="1" parent="1">
+                    <mxGeometry x="2220" y="620" width="530" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Tooltip&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+                    <mxGeometry x="2485" y="1270" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;strong&gt;z-1&lt;/strong&gt;: Z-index of 1.&lt;br&gt;&lt;strong&gt;absolute&lt;/strong&gt;: Positions the element absolutely within its relative parent.&lt;br&gt;&lt;strong&gt;left-14&lt;/strong&gt;: Left position of 3.5rem (56px).&lt;br&gt;&lt;strong&gt;-top-[34px]&lt;/strong&gt;: Top position of -34px.&lt;br&gt;&lt;strong&gt;w-auto&lt;/strong&gt;: Auto width.&lt;br&gt;&lt;strong&gt;min-w-max&lt;/strong&gt;: Minimum width based on content.&lt;br&gt;&lt;strong&gt;origin-left&lt;/strong&gt;: Transformation origin at the left.&lt;br&gt;&lt;strong&gt;scale-0&lt;/strong&gt;: Scales the element to 0 (hidden).&lt;br&gt;&lt;strong&gt;rounded&lt;/strong&gt;: Rounded corners.&lt;br&gt;&lt;strong&gt;bg-foreground&lt;/strong&gt;: Foreground background color.&lt;br&gt;&lt;strong&gt;p-2&lt;/strong&gt;: Padding of 0.5rem (8px).&lt;br&gt;&lt;strong&gt;text-xs&lt;/strong&gt;: Font size of 0.75rem (12px).&lt;br&gt;&lt;strong&gt;font-semibold&lt;/strong&gt;: Semi-bold font weight.&lt;br&gt;&lt;strong&gt;text-background&lt;/strong&gt;: Background text color.&lt;br&gt;&lt;strong&gt;shadow-md&lt;/strong&gt;: Medium shadow.&lt;br&gt;&lt;strong&gt;transition-all&lt;/strong&gt;: Smooth transition for all properties.&lt;br&gt;&lt;strong&gt;duration-500&lt;/strong&gt;: Transition duration of 500ms.&lt;br&gt;&lt;strong&gt;group-hover&lt;div&gt;&lt;/div&gt;&lt;/strong&gt;: Scales the element to 100% on group hover." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontSize=24;fontColor=#FFCCE6;" vertex="1" parent="1">
+                    <mxGeometry x="2220" y="680" width="770" height="570" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
