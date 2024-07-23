@@ -1,7 +1,7 @@
 import { Injectable, OnDestroy, signal } from '@angular/core';
 import { Router } from '@angular/router';
 import { MenuItem, SubMenuItem } from '../../../core/models/menu.model';
-import { single } from 'rxjs';
+import { retry, single } from 'rxjs';
 import { Menu } from '../../../core/constants/menu';
 
 @Injectable({
@@ -9,6 +9,7 @@ import { Menu } from '../../../core/constants/menu';
 })
 export class MenuService implements OnDestroy {
   private _showSidebar = signal(true);
+  private _showMobileMenu = signal(false);
   private _pagesMenu = signal<MenuItem[]>([]);
 
   constructor(private router: Router) {
@@ -19,12 +20,20 @@ export class MenuService implements OnDestroy {
     return this._showSidebar();
   }
 
+  get showMobileMenu() {
+    return this._showMobileMenu();
+  }
+
   get pagesMenu() {
     return this._pagesMenu();
   }
 
   set showSideBar(value: boolean) {
     this._showSidebar.set(value);
+  }
+
+  set showMobileMenu(value: boolean) {
+    this._showMobileMenu.set(value);
   }
 
   public toggleSidebar() {
