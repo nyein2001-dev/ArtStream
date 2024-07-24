@@ -6,5 +6,6 @@
       " class="mr-2 inline-flex rounded-md px-3 py-2 text-sm font-medium">
         <span>{{ menu.group }}</span>
     </button>
-    <div class="dropdown-content absolute top-[100%] min-w-[200px] origin-top-left" navbar-submenu></div>
+    <div class="dropdown-content absolute top-[100%] min-w-[200px] origin-top-left" navbar-submenu
+        [submenu]="menu.items"></div>
 </div>

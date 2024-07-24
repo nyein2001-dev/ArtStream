@@ -1,12 +1,35 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { AngularSvgIconModule } from 'angular-svg-icon';
+import { RouterLinkActive, RouterLink } from '@angular/router';
+import { NgFor, NgTemplateOutlet, NgIf } from '@angular/common';
+import { SubMenuItem } from '../../../../../core/models/menu.model';
 
 @Component({
-  selector: 'app-navbar-submenu',
-  standalone: true,
-  imports: [],
+  selector: 'div[navbar-submenu]',
   templateUrl: './navbar-submenu.component.html',
-  styleUrl: './navbar-submenu.component.scss'
+  styleUrls: ['./navbar-submenu.component.scss'],
+  standalone: true,
+  imports: [NgFor, NgTemplateOutlet, RouterLinkActive, RouterLink, NgIf, AngularSvgIconModule],
 })
-export class NavbarSubmenuComponent {
+export class NavbarSubmenuComponent implements OnInit {
+  @Input() public submenu = <SubMenuItem[]>{};
+  @ViewChild('submenuRef') submenuRef: ElementRef<HTMLDivElement> | undefined;
 
+  constructor() { }
+
+  ngOnInit(): void { }
+
+  ngAfterViewInit() {
+    if (this.submenuRef) {
+      // const submenu = this.submenuRef.nativeElement.getBoundingClientRect();
+      // const bounding = document.body.getBoundingClientRect();
+
+      // if (submenu.right > bounding.right) {
+      //   const childrenElement = this.submenuRef.nativeElement.parentNode as HTMLElement;
+      //   if (childrenElement) {
+      //     childrenElement.style.left = '-100%';
+      //   }
+      // }
+    }
+  }
 }
