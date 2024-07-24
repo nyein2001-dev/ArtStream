@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="A5IvTy38x45MZ6O3zEIo" name="Page-1">
+        <mxGraphModel dx="1280" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fillColor=#0050EF;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="70" width="2540" height="1020" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;strong&gt;relative&lt;/strong&gt;: Sets the element's position to relative.&lt;br&gt;&lt;strong&gt;bg-background&lt;/strong&gt;: Background color set to the 'background' color variable." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#0050EF;" vertex="1" parent="1">
+                    <mxGeometry width="2550" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#000000;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="140" width="2520" height="870" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Appbar Mobile" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;" vertex="1" parent="1">
+                    <mxGeometry x="1090" y="1030" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;strong&gt;mx-auto&lt;/strong&gt;: Horizontally center the element with auto margins.&lt;br&gt;&lt;strong&gt;px-5&lt;/strong&gt;: Padding-left and padding-right of 1.25rem (20px)." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E3C800;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="70" width="2450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fillColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="300" width="2500" height="700" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-12" value="&lt;strong&gt;flex&lt;/strong&gt;: Applies flexbox layout to the container.&lt;br&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically at the center.&lt;br&gt;&lt;strong&gt;justify-between&lt;/strong&gt;: Spaces out items with space between them.&lt;br&gt;&lt;strong&gt;py-3.5&lt;/strong&gt;: Padding-top and padding-bottom of 0.875rem (14px).&lt;br&gt;&lt;strong&gt;md:justify-start&lt;/strong&gt;: On medium screens and above, aligns items to the start." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#18141D;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="150" width="2450" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#60a917;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="830" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-15" value="&lt;strong&gt;sm:order-1&lt;/strong&gt;: On small screens and above, orders the element first.&lt;br&gt;&lt;strong&gt;md:hidden&lt;/strong&gt;: On medium screens and above, hides the element." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#60A917;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="310" width="850" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-16" value="Svg Icon" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#60A917;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="275" y="930" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-18" value="&lt;strong&gt;inline-flex&lt;/strong&gt;: Displays the element as an inline-level flex container.&lt;br&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically at the center.&lt;br&gt;&lt;strong&gt;justify-center&lt;/strong&gt;: Centers items horizontally.&lt;br&gt;&lt;strong&gt;rounded-md&lt;/strong&gt;: Medium-sized rounded corners.&lt;br&gt;&lt;strong&gt;bg-muted&lt;/strong&gt;: Background color set to the 'muted' color variable.&lt;br&gt;&lt;strong&gt;p-2&lt;/strong&gt;: Padding of 0.5rem (8px).&lt;br&gt;&lt;strong&gt;text-muted-foreground&lt;/strong&gt;: Foreground text color set to the 'muted' color variable.&lt;br&gt;&lt;strong&gt;focus:outline-none&lt;/strong&gt;: Removes the default outline on focus.&lt;br&gt;&lt;strong&gt;focus:ring-2&lt;/strong&gt;: Applies a 2-pixel wide ring on focus.&lt;br&gt;&lt;strong&gt;focus:ring-inset&lt;/strong&gt;: Inset ring on focus.&lt;br&gt;&lt;strong&gt;focus:ring-primary&lt;/strong&gt;: Ring color set to the 'primary' color variable on focus.&lt;br&gt;&lt;strong&gt;hover:bg-muted-foreground&lt;/strong&gt;: Changes background color on hover to 'muted-foreground'.&lt;br&gt;&lt;strong&gt;hover:text-muted&lt;/strong&gt;: Changes text color on hover to 'muted'." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="830" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#FFFFFF;fillColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="880" y="550" width="790" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-20" value="Svg Logo" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#76608a;strokeColor=#432D57;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="920" width="360" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-21" value="Brand Name" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#a0522d;strokeColor=#6D1F00;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="920" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-23" value="&lt;strong&gt;flex&lt;/strong&gt;: Applies flexbox layout to the container.&lt;br&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically at the center.&lt;br&gt;&lt;strong&gt;justify-center&lt;/strong&gt;: Centers items horizontally.&lt;br&gt;&lt;strong&gt;rounded-md&lt;/strong&gt;: Medium-sized rounded corners.&lt;br&gt;&lt;strong&gt;bg-primary&lt;/strong&gt;: Primary background color.&lt;br&gt;&lt;strong&gt;p-2&lt;/strong&gt;: Padding of 0.5rem (8px).&lt;br&gt;&lt;strong&gt;focus:outline-none&lt;/strong&gt;: Removes the default outline on focus.&lt;br&gt;&lt;strong&gt;focus:ring-1&lt;/strong&gt;: Applies a 2-pixel wide ring on focus." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#76608A;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="565" width="510" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-25" value="&lt;strong&gt;flex&lt;/strong&gt;: Applies flexbox layout to the container.&lt;br&gt;&lt;strong&gt;items-center&lt;/strong&gt;: Aligns items vertically at the center.&lt;br&gt;&lt;strong&gt;sm:order-2&lt;/strong&gt;: On small screens and above, orders the element second.&lt;br&gt;&lt;strong&gt;md:mr-10&lt;/strong&gt;: On medium screens and above, applies a right margin of 2.5rem (40px).&lt;br&gt;&lt;strong&gt;lg:hidden&lt;/strong&gt;: On large screens and above, hides the element." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#FFFFFF;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="300" width="790" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-27" value="&lt;strong&gt;hidden&lt;/strong&gt;: Hides the element.&lt;br&gt;&lt;strong&gt;pl-4&lt;/strong&gt;: Padding-left of 1rem (16px).&lt;br&gt;&lt;strong&gt;text-sm&lt;/strong&gt;: Small text size.&lt;br&gt;&lt;strong&gt;font-bold&lt;/strong&gt;: Bold font weight.&lt;br&gt;&lt;strong&gt;text-foreground&lt;/strong&gt;: Foreground text color." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#A0522D;" vertex="1" parent="1">
+                    <mxGeometry x="1440" y="570" width="220" height="330" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-31" value="" style="edgeStyle=none;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#A0522D;" edge="1" parent="1" source="aTuqZbPJosH-RnzICZwy-29" target="aTuqZbPJosH-RnzICZwy-30">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-29" value="App Navbar Menu" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
+                    <mxGeometry x="1735" y="930" width="250" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-30" value="&lt;strong&gt;hidden&lt;/strong&gt;: Hides the element.&lt;br&gt;&lt;strong&gt;space-x-10&lt;/strong&gt;: Horizontal spacing of 2.5rem (40px) between child elements.&lt;br&gt;&lt;strong&gt;sm:order-3&lt;/strong&gt;: On small screens and above, orders the element third.&lt;br&gt;&lt;strong&gt;md:flex&lt;/strong&gt;: On medium screens and above, applies flexbox layout to the container." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#A0522D;" vertex="1" parent="1">
+                    <mxGeometry x="1670" y="595" width="380" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-32" value="Profile Menu" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontSize=24;fontColor=#000000;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
+                    <mxGeometry x="2190" y="930" width="240" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aTuqZbPJosH-RnzICZwy-34" value="&lt;strong&gt;justify-center&lt;/strong&gt;: Centers items horizontally.&lt;br&gt;&lt;strong&gt;sm:order-4&lt;/strong&gt;: On small screens and above, orders the element fourth.&lt;br&gt;&lt;strong&gt;md:flex&lt;/strong&gt;: On medium screens and above, applies flexbox layout to the container.&lt;br&gt;&lt;strong&gt;md:flex-1&lt;/strong&gt;: On medium screens and above, sets flex-grow to 1.&lt;br&gt;&lt;strong&gt;lg:w-0&lt;/strong&gt;: On large screens and above, sets width to 0.&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontSize=24;fontColor=#E3C800;" vertex="1" parent="1">
+                    <mxGeometry x="2070" y="600" width="450" height="310" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
