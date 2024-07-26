@@ -1,5 +1,5 @@
+import { Component, EventEmitter, OnInit, Output, input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Component, EventEmitter, input, OnInit, Output } from '@angular/core';
 import { cx } from '../../utils/ckassnames';
 
 type ButtonProps = {
@@ -8,14 +8,14 @@ type ButtonProps = {
   shape: 'square' | 'rounded' | 'pill';
   tone: 'primary' | 'danger' | 'success' | 'warning' | 'info' | 'light';
   shadow: 'none' | 'small' | 'medium' | 'large';
-}
+};
 
 @Component({
   selector: 'app-button',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './button.component.html',
-  styleUrl: './button.component.scss'
+  styleUrl: './button.component.scss',
 })
 export class ButtonComponent implements OnInit {
   impact = input<ButtonProps['impact']>('none');
@@ -31,11 +31,12 @@ export class ButtonComponent implements OnInit {
 
   public classes: string = '';
 
-  baseClasses = 'font-semibold focus-visible:outline-none flex items-center justify-center focus-visible:ring-2 focus-visible:ring-offset-2 active:translate-y-px disabled:pointer-events-none disabled:opacity-50';
+  baseClasses =
+    'font-semibold focus-visible:outline-none flex items-center justify-center focus-visible:ring-2 focus-visible:ring-offset-2 active:translate-y-px disabled:pointer-events-none disabled:opacity-50';
 
   impactClasses: Record<ButtonProps['tone'], Record<ButtonProps['impact'], string>> = {
     primary: {
-      bold: 'bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-primary ',
+      bold: 'bg-primary text-primary-foreground hover:bg-primary/90 focus-visible:ring-primary',
       light: 'bg-primary/20 text-primary hover:bg-primary/30 focus-visible:ring-primary',
       none: 'bg-transparent text-primary hover:bg-primary/10 focus-visible:ring-primary',
     },
@@ -45,8 +46,8 @@ export class ButtonComponent implements OnInit {
       none: 'bg-transparent text-destructive hover:bg-destructive/10 focus-visible:ring-destructive',
     },
     success: {
-      bold: 'bg-screen-50 text-green-950 hover:bg-green-600 focus-visible:ring-green-500',
-      light: 'bg-screen-500/20 text-green-600 hover:bg-green-500/30 focus-visible:ring-green-500',
+      bold: 'bg-green-500 text-green-950 hover:bg-green-600 focus-visible:ring-green-500',
+      light: 'bg-green-500/20 text-green-600 hover:bg-green-500/30 focus-visible:ring-green-500',
       none: 'bg-transparent text-green-600 hover:bg-green-500/10 focus-visible:ring-green-500',
     },
     warning: {
@@ -85,7 +86,7 @@ export class ButtonComponent implements OnInit {
     large: 'shadow-lg',
   };
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit(): void {
     this.classes = cx(
@@ -101,5 +102,4 @@ export class ButtonComponent implements OnInit {
   onButtonClick() {
     this.buttonClick.emit();
   }
-
 }

@@ -17,7 +17,7 @@ export class SignInComponent implements OnInit {
   submitted = false;
   passwordTextType!: boolean;
 
-  constructor(private readonly _formBuilder: FormBuilder, private readonly _router: Router) { }
+  constructor(private readonly _formBuilder: FormBuilder, private readonly _router: Router) {}
 
   onClick() {
     console.log('Button clicked');
@@ -42,11 +42,11 @@ export class SignInComponent implements OnInit {
     this.submitted = true;
     const { email, password } = this.form.value;
 
+    // stop here if form is invalid
     if (this.form.invalid) {
       return;
     }
 
     this._router.navigate(['/']);
   }
-
 }

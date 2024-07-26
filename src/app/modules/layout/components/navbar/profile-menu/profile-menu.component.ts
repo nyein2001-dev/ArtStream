@@ -40,17 +40,17 @@ export class ProfileMenuComponent implements OnInit {
   public profileMenu = [
     {
       title: 'Your Profile',
-      icon: './assets/icons/user-circle.svg',
+      icon: './assets/icons/heroicons/outline/user-circle.svg',
       link: '/profile',
     },
     {
       title: 'Settings',
-      icon: './assets/icons/cog-6-tooth.svg',
+      icon: './assets/icons/heroicons/outline/cog-6-tooth.svg',
       link: '/settings',
     },
     {
       title: 'Log out',
-      icon: './assets/icons/logout.svg',
+      icon: './assets/icons/heroicons/outline/logout.svg',
       link: '/auth',
     },
   ];
@@ -88,9 +88,9 @@ export class ProfileMenuComponent implements OnInit {
 
   public themeMode = ['light', 'dark'];
 
-  constructor(public themeService: ThemeService) { }
+  constructor(public themeService: ThemeService) {}
 
-  ngOnInit(): void { }
+  ngOnInit(): void {}
 
   public toggleMenu(): void {
     this.isOpen = !this.isOpen;

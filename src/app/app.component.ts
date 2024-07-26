@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { ThemeService } from './core/services/theme.service';
-
+import { RouterOutlet } from '@angular/router';
+import { NgClass } from '@angular/common';
+import { ResponsiveHelperComponent } from './shared/components/responsive-helper/responsive-helper.component';
 @Component({
   selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss'],
+  standalone: true,
+  imports: [NgClass, RouterOutlet, ResponsiveHelperComponent],
 })
 export class AppComponent {
   title = 'Art Stream';
 
-  constructor(public themeService: ThemeService){}
-
+  constructor(public themeService: ThemeService) {}
 }

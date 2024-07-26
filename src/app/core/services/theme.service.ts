@@ -1,37 +1,30 @@
-import { Injectable, Inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
-import { effect, signal } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 import { Theme } from '../models/theme.model';
+import { effect } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class ThemeService {
   public theme = signal<Theme>({ mode: 'dark', color: 'base' });
 
-  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
-    if (isPlatformBrowser(this.platformId)) {
-      this.loadTheme();
-      effect(() => {
-        this.setTheme();
-      });
-    }
+  constructor() {
+    this.loadTheme();
+    effect(() => {
+      this.setTheme();
+    });
   }
 
   private loadTheme() {
-    if (isPlatformBrowser(this.platformId)) {
-      const theme = localStorage.getItem('theme');
-      if (theme) {
-        this.theme.set(JSON.parse(theme));
-      }
+    const theme = localStorage.getItem('theme');
+    if (theme) {
+      this.theme.set(JSON.parse(theme));
     }
   }
 
   private setTheme() {
-    if (isPlatformBrowser(this.platformId)) {
-      localStorage.setItem('theme', JSON.stringify(this.theme()));
-      this.setThemeClass();
-    }
+    localStorage.setItem('theme', JSON.stringify(this.theme()));
+    this.setThemeClass();
   }
 
   public get isDark(): boolean {
@@ -39,9 +32,7 @@ export class ThemeService {
   }
 
   private setThemeClass() {
-    if (isPlatformBrowser(this.platformId)) {
-      document.querySelector('html')!.className = this.theme().mode;
-      document.querySelector('html')!.setAttribute('data-theme', this.theme().color);
-    }
+    document.querySelector('html')!.className = this.theme().mode;
+    document.querySelector('html')!.setAttribute('data-theme', this.theme().color);
   }
 }
