@@ -8,10 +8,11 @@ describe('NftComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NftComponent]
-    })
-    .compileComponents();
+    imports: [NftComponent],
+}).compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(NftComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

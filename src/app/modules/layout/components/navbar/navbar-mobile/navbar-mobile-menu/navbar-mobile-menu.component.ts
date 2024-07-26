@@ -1,30 +1,29 @@
-import { NgClass, NgFor, NgIf, NgTemplateOutlet } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { SubMenuItem } from 'src/app/core/models/menu.model';
+import { MenuService } from 'src/app/modules/layout/services/menu.service';
+import { NavbarMobileSubmenuComponent } from '../navbar-mobile-submenu/navbar-mobile-submenu.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { AngularSvgIconModule } from 'angular-svg-icon';
-import { NavbarMobileSubmenuComponent } from '../navbar-mobile-submenu/navbar-mobile-submenu.component';
-import { MenuService } from '../../../../services/menu.service';
-import { SubMenuItem } from '../../../../../../core/models/menu.model';
+import { NgFor, NgClass, NgTemplateOutlet, NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-navbar-mobile-menu',
-  standalone: true,
-  imports: [
-    NgFor,
-    NgClass,
-    AngularSvgIconModule,
-    NgTemplateOutlet,
-    RouterLink,
-    RouterLinkActive,
-    NgIf,
-    NavbarMobileSubmenuComponent,
-  ],
-  templateUrl: './navbar-mobile-menu.component.html',
-  styleUrl: './navbar-mobile-menu.component.scss'
+    selector: 'app-navbar-mobile-menu',
+    templateUrl: './navbar-mobile-menu.component.html',
+    styleUrls: ['./navbar-mobile-menu.component.scss'],
+    standalone: true,
+    imports: [
+        NgFor,
+        NgClass,
+        AngularSvgIconModule,
+        NgTemplateOutlet,
+        RouterLink,
+        RouterLinkActive,
+        NgIf,
+        NavbarMobileSubmenuComponent,
+    ],
 })
 export class NavbarMobileMenuComponent implements OnInit {
-
-  constructor(public menuService: MenuService) { }
+  constructor(public menuService: MenuService) {}
 
   public toggleMenu(subMenu: SubMenuItem) {
     this.menuService.toggleMenu(subMenu);
@@ -34,6 +33,5 @@ export class NavbarMobileMenuComponent implements OnInit {
     this.menuService.showMobileMenu = false;
   }
 
-  ngOnInit(): void { }
-
+  ngOnInit(): void {}
 }
