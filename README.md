@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/public/assets/favicon.png" alt="Art Stream" width="300" height="300">
+<img src="./assets/icons/logo.png" alt="Art Stream" width="300" height="300">
 </p>
 
 # ArtStream
@@ -16,7 +16,6 @@ Welcome to **ArtStream** – a dynamic platform where artists and photographers 
 ## Project Design
 
 ![Folder Design](folder_structure.png)
-
 
 ## Getting Started
 
@@ -36,35 +35,38 @@ Follow these instructions to get a copy of the project up and running on your lo
    https://github.com/nyein2001-dev/shop-guard.git
    cd shop-guard
    ```
+
 2. **Install dependencies**:
 
    ```bash
    npm install
    ```
-   
-2. **Firebase configuration**:
 
-   Before running the application, you need to add your Firebase configuration to `src/environments/environment.ts`. Replace `YOUR_API_KEY`, `YOUR_AUTH_DOMAIN`, `YOUR_PROJECT_ID`, 
+3. **Firebase configuration**:
+
+   Before running the application, you need to add your Firebase configuration to `src/environments/environment.ts`. Replace `YOUR_API_KEY`, `YOUR_AUTH_DOMAIN`, `YOUR_PROJECT_ID`,
    `YOUR_STORAGE_BUCKET`, `YOUR_MESSAGING_SENDER_ID`, and `YOUR_APP_ID` with your Firebase project credentials.
 
-      ```typescript
-      export const environment = {
-         production: false,
-         firebase: {
-         apiKey: "YOUR_API_KEY",
-         authDomain: "YOUR_AUTH_DOMAIN",
-         projectId: "YOUR_PROJECT_ID",
-         storageBucket: "YOUR_STORAGE_BUCKET",
-         messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-         appId: "YOUR_APP_ID"
-       }
+   ```typescript
+   export const environment = {
+     production: false,
+     firebase: {
+       apiKey: "YOUR_API_KEY",
+       authDomain: "YOUR_AUTH_DOMAIN",
+       projectId: "YOUR_PROJECT_ID",
+       storageBucket: "YOUR_STORAGE_BUCKET",
+       messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+       appId: "YOUR_APP_ID",
+     },
    };
    ```
+
 4. **Start the development server**:
 
    ```bash
       ng serve
    ```
+
 ## Usage
 
 - **Login/Signup**: Use the authentication forms to register a new user or log in with an existing account.
