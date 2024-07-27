@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/icons/logo.png" alt="Art Stream" width="300" height="300">
+<img src="./assets/icons/logo.png" alt="Art Stream" width="300" height="300">
 </p>
 
 # ArtStream

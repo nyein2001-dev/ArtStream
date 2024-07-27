@@ -1,38 +1,24 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AuthComponent } from './layouts/auth/auth.component';
-
-import { LoginComponent } from './layouts/auth/login/login.component';
-import { RegisterComponent } from './layouts/auth/register/register.component';
-
-import { BoardComponent } from './layouts/board/board.component';
-import { HomeComponent } from './layouts/board/home/home.component';
-
-export const routes: Routes = [
+const routes: Routes = [
   {
-    path: 'board',
-    component: BoardComponent,
-    children: [
-      { path: 'home', component: HomeComponent },
-      { path: '', redirectTo: 'main', pathMatch: 'full' },
-    ],
+    path: '',
+    loadChildren: () => import('./modules/layout/layout.module').then((m) => m.LayoutModule),
   },
   {
     path: 'auth',
-    component: AuthComponent,
-    children: [
-      { path: 'login', component: LoginComponent },
-      { path: 'register', component: RegisterComponent },
-      { path: '', redirectTo: 'login', pathMatch: 'full' },
-    ],
+    loadChildren: () => import('./modules/auth/auth.module').then((m) => m.AuthModule),
   },
-  { path: '', redirectTo: '/board/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '', pathMatch: 'full' },
+  {
+    path: 'errors',
+    loadChildren: () => import('./modules/error/error.module').then((m) => m.ErrorModule),
+  },
+  { path: '**', redirectTo: 'errors/404' },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
