@@ -1,12 +1,12 @@
 {
-  "name": "angular-tailwind",
+  "name": "art-stream",
   "displayName": "Art Stream",
-  "version": "0.7.0",
-  "description": "Angular & Tailwind CSS Admin Dashboard Starter Kit, Free and Open Source",
-  "homepage": "https://github.com/lannodev/angular-tailwind#readme",
+  "version": "0.0.0",
+  "description": "ArtStream is a web application that conveys the idea of a continuous flow of art and creativity, much like a newsfeed, and is short and memorable. This project utilizes Angular for front-end development and Firebase for user authentication.",
+  "homepage": "https://github.com/nyein2001-dev/ArtStream#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lannodev/angular-tailwind.git"
+    "url": "git+https://github.com/nyein2001-dev/ArtStream.git"
   },
   "keywords": [
     "angular",
@@ -16,8 +16,7 @@
     "dark mode",
     "open source"
   ],
-  "author": "Luciano Oliveira <me@lanno.dev>",
-  "license": "MIT",
+  "author": "Nyein Chan Toe <nyeinchantoe0@gmail.com>",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
