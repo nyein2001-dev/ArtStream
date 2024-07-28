@@ -6,7 +6,7 @@ import { PodcastComponent } from './pages/podcast/podcast.component';
 import { NotificationComponent } from './components/notification/notification.component';
 import { ShopComponent } from './components/shop/shop.component';
 import { ConversationComponent } from './components/conversation/conversation.component';
-import { WalletComponent } from './components/wallet/wallet.component';
+import { WalletComponent } from './pages/wallet/wallet.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SettingComponent } from './components/setting/setting.component';
