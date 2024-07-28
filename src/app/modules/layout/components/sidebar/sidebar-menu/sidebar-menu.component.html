@@ -6,7 +6,7 @@
   </div>
   <ul class="flex flex-col space-y-1">
     <li *ngFor="let item of menu.items">
-      <div (click)="toggleMenu(item)" class="group relative text-muted-foreground">
+      <div (click)="toggleMenu(item)" class="group relative my-0.5 text-muted-foreground">
         <div
           [ngClass]="item.active && !menuService.showSideBar ? 'text-primary' : 'text-muted-foreground/50'"
           class="pointer-events-none absolute m-2">
