@@ -25,7 +25,7 @@ const routes: Routes = [
       { path: 'wallet', component: WalletComponent },
       { path: 'subscription', component: SubscriptionComponent },
       { path: 'profile', component: ProfileComponent },
-      { path: 'setting', component: SettingComponent },
+      { path: 'settings', component: SettingComponent },
       { path: '**', redirectTo: 'errors/404' },
     ],
   },

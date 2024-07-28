@@ -49,7 +49,7 @@ export class Menu {
         {
           icon: 'assets/icons/heroicons/outline/setting.svg',
           label: 'Settings',
-          route: '/dashboard/setting',
+          route: '/dashboard/settings',
         },
         {
           icon: 'assets/icons/heroicons/outline/logout.svg',
