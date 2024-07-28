@@ -1,31 +1,23 @@
-<aside class="xl:translate-x-0 mt-3 justify-center">
+<aside class="xl:translate-x-0 my-4 justify-center">
     <ul class="flex justify-between space-x-4 flex-wrap -mb-px text-sm font-medium text-center" id="default-tab"
         role="tablist">
-        <li class="me-2" role="presentation">
-            <button
-                class="flex-none rounded-md px-4 py-2.5 text-xs font-semibold bg-muted text-muted-foreground hover:text-foreground"
-                (click)="toggleTab('artists')" [class.border-gray-800]="activeTab === 'artists'"
-                [attr.aria-selected]="activeTab === 'artists'" aria-controls="artists" role="tab" [ngClass]="
-      activeTab === 'artists'
-        ? 'bg-primary text-primary-foreground'
-        : 'text-muted-foreground/50 hover:bg-card hover:text-muted-foreground '
-    ">
+        <li role="presentation">
+            <button class="flex-none rounded-md px-4 py-2.5 text-xs font-semibold" (click)="toggleTab('artists')"
+                [attr.aria-selected]="activeTab === 'artists'" aria-controls="artists" role="tab"
+                [ngClass]="activeTab === 'artists' ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground/50 hover:bg-card hover:text-muted-foreground'">
                 Artists
             </button>
         </li>
-        <li class="me-2" role="presentation">
+        <li role="presentation">
             <button class="flex-none rounded-md px-4 py-2.5 text-xs font-semibold" (click)="toggleTab('photographers')"
-                [class.border-gray-800]="activeTab === 'photographers'"
-                [attr.aria-selected]="activeTab === 'photographers'" aria-controls="photographers" role="tab" [ngClass]="
-      activeTab === 'photographers'
-        ? 'bg-primary text-primary-foreground'
-        : 'bg-muted text-muted-foreground/50 hover:bg-card hover:text-muted-foreground '
-    ">
+                [attr.aria-selected]="activeTab === 'photographers'" aria-controls="photographers" role="tab"
+                [ngClass]="activeTab === 'photographers' ? 'bg-primary text-primary-foreground' : 'bg-muted text-muted-foreground/50 hover:bg-card hover:text-muted-foreground'">
                 Photographers
             </button>
         </li>
     </ul>
 </aside>
+
 
 <div style="height: 73vh; overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
     <style>
