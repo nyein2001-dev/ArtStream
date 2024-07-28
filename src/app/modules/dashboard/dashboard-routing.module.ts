@@ -5,7 +5,7 @@ import { NftComponent } from './pages/nft/nft.component';
 import { PodcastComponent } from './pages/podcast/podcast.component';
 import { NotificationComponent } from './pages/notification/notification.component';
 import { ShopComponent } from './pages/shop/shop.component';
-import { ConversationComponent } from './components/conversation/conversation.component';
+import { ConversationComponent } from './pages/conversation/conversation.component';
 import { WalletComponent } from './pages/wallet/wallet.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
 import { ProfileComponent } from './pages/profile/profile.component';
