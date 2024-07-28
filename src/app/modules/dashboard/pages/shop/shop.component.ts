@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { ShopHeaderComponent } from '../../components/shop/shop-header/shop-header.component';
 
 @Component({
   selector: 'app-shop',
   standalone: true,
-  imports: [],
+  imports: [ShopHeaderComponent],
   templateUrl: './shop.component.html',
   styleUrl: './shop.component.scss'
 })
