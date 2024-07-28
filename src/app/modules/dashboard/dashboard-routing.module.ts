@@ -9,7 +9,7 @@ import { ConversationComponent } from './components/conversation/conversation.co
 import { WalletComponent } from './pages/wallet/wallet.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { SettingComponent } from './components/setting/setting.component';
+import { SettingComponent } from './pages/setting/setting.component';
 
 const routes: Routes = [
   {
