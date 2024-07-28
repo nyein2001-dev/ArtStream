@@ -8,7 +8,7 @@ import { ShopComponent } from './pages/shop/shop.component';
 import { ConversationComponent } from './components/conversation/conversation.component';
 import { WalletComponent } from './pages/wallet/wallet.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
-import { ProfileComponent } from './components/profile/profile.component';
+import { ProfileComponent } from './pages/profile/profile.component';
 import { SettingComponent } from './pages/setting/setting.component';
 
 const routes: Routes = [
