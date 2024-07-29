@@ -1,0 +1,90 @@
+<div class="mx-auto px-4 py-4 sm:px-8 lg:container h-full "
+    style=" overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
+    <style>
+        .mx-10::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <div *ngFor="let post of posts">
+        <div class="max-w-2xl bg-background mx-auto shadow-md rounded-xl my-4 overflow-hidden">
+            <div class="flex p-4 justify-between items-center">
+                <div class="post-header flex items-center">
+                    <img class="h-10 w-10 rounded-lg object-cover mr-3" [src]="post.profileImageUrl"
+                        alt="Profile Image">
+                    <div>
+                        <h1 class="truncate text-sm font-semibold text-foreground">{{ post.name }}</h1>
+                        <p class="truncate text-xs text-muted-foreground">&#64;{{ post.username }}</p>
+                    </div>
+                </div>
+                <div class="cursor-pointer">
+                    <svg-icon src="assets/icons/heroicons/outline/more.svg"> </svg-icon>
+                </div>
+            </div>
+            <div class="relative px-4 text-foreground font-normal">
+                <p class="text-sm mb-2 line-clamp-2">{{ post.content }}</p>
+                <div class="relative">
+                    <img *ngIf="post.imageUrl" class="w-full h-auto object-cover rounded-lg" [src]="post.imageUrl"
+                        alt="Post Image">
+                    <!-- <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                            [svgClass]="'h-5 w-5 absolute top-5 right-5'"></svg-icon> -->
+                    <span class="mr-2 text-primary ">
+                        <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                            [svgClass]="'h-5 w-5 absolute top-5 right-5'"> </svg-icon>
+                    </span>
+                </div>
+            </div>
+            <div class="pt-4">
+                <hr class="border-dashed border-border" />
+            </div>
+            <div class="flex p-4 mt-2 justify-start rounded-b-xl">
+                <div class="flex mr-4 items-center text-foreground cursor-pointer">
+                    <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                        [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
+                    <p class="text-base font-semibold text-foreground">9.8k</p>
+                </div>
+                <div class="flex mx-4 items-center text-foreground cursor-pointer">
+                    <svg-icon src="assets/icons/heroicons/outline/comment.svg"
+                        [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
+                    <p class="text-base font-semibold text-foreground">8.6k</p>
+                </div>
+                <div class="flex mx-4 items-center text-foreground cursor-pointer">
+                    <svg-icon src="assets/icons/heroicons/outline/share.svg"
+                        [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
+                    <p class="text-base font-semibold text-foreground">7.2k</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-2xl mx-auto my-4 overflow-x-auto overflow-y-hidden"
+        style="overflow-x: auto; overflow-y: hidden; -ms-overflow-style: none; scrollbar-width: none;">
+        <style>
+            .mx-auto::-webkit-scrollbar {
+                display: none;
+            }
+        </style>
+        <div id="default-tab-content" class="flex">
+            <div *ngFor="let post of posts">
+                <div class="relative items-center mx-2">
+                    <img *ngIf="post.imageUrl" class="min-w-[252px] min-h-[180px] object-cover rounded-lg"
+                        [src]="post.imageUrl" alt="Post Image">
+                    <p class="text-base font-semibold mb-2 line-clamp-1 text-foreground">{{ post.content }}</p>
+                    <div class="flex justify-between items-center text-center">
+                        <p class="text-2xl font-semibold text-foreground mb-2">$199.99</p>
+                        <div class="text-base font-semibold mb-2 flex items-center">
+                            <svg-icon src="assets/icons/heroicons/outline/star.svg"
+                                [svgClass]="'w-4 h-4 text-yellow-400'"></svg-icon>
+                            <svg-icon src="assets/icons/heroicons/outline/star.svg"
+                                [svgClass]="'w-4 h-4 text-yellow-400'"></svg-icon>
+                            <svg-icon src="assets/icons/heroicons/outline/star.svg"
+                                [svgClass]="'w-4 h-4 text-yellow-400'"></svg-icon>
+                            <svg-icon src="assets/icons/heroicons/outline/star.svg"
+                                [svgClass]="'w-4 h-4 text-yellow-400'"></svg-icon>
+                            <svg-icon src="assets/icons/heroicons/outline/star.svg"
+                                [svgClass]="'w-4 h-4 text-yellow-400'"></svg-icon>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
