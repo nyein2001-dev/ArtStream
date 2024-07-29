@@ -10,6 +10,7 @@ import { WalletComponent } from './pages/wallet/wallet.component';
 import { SubscriptionComponent } from './pages/subscription/subscription.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { SettingComponent } from './pages/setting/setting.component';
+import { HomeComponent } from './pages/home/home.component';
 
 const routes: Routes = [
   {
@@ -17,7 +18,7 @@ const routes: Routes = [
     component: DashboardComponent,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: NftComponent },
+      { path: 'home', component: HomeComponent },
       { path: 'podcast', component: PodcastComponent },
       { path: 'notifications', component: NotificationComponent },
       { path: 'shop', component: ShopComponent },
