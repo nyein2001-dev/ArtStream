@@ -1,29 +1,44 @@
 <div class="relative bg-background">
   <div class="mx-auto px-5">
-    <div class="flex items-center justify-between py-3.5 md:justify-start">
+    <div class="flex items-center justify-between py-3.5 md:justify-between">
+      <!-- Mobile menu button -->
       <div class="sm:order-1 md:hidden">
-        <button
-          (click)="toggleMobileMenu()"
-          type="button"
+        <button (click)="toggleMobileMenu()" type="button"
           class="inline-flex items-center justify-center rounded-md bg-muted p-2 text-muted-foreground focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary hover:bg-muted-foreground hover:text-muted"
           aria-expanded="false">
           <span class="sr-only">Open menu</span>
-          <svg-icon src="assets/icons/heroicons/outline/menu.svg" [svgClass]="'h-6 w-6'"> </svg-icon>
+          <svg-icon src="assets/icons/heroicons/outline/menu.svg" [svgClass]="'h-6 w-6'"></svg-icon>
         </button>
       </div>
 
+      <!-- Logo and title -->
       <div class="flex items-center justify-start sm:order-2 md:mr-10 lg:hidden">
         <a class="flex items-center justify-center rounded bg-primary p-0.5 focus:outline-none focus:ring-1">
-          <!-- <svg-icon src="assets/icons/logo.svg"></svg-icon> -->
           <img src="./assets/icons/logo.png" class="rounded h-6 w-6" alt="Art Stream" />
         </a>
         <b class="hidden pl-3 text-sm font-bold text-foreground sm:block"> Art Stream </b>
       </div>
 
-      <div class="hidden space-x-10 sm:order-3 md:flex">
-        <app-navbar-menu></app-navbar-menu>
+      <!-- Search widget -->
+      <div class="hidden flex-1 md:flex items-center justify-center sm:order-3 md:mx-auto lg:mx-0">
+        <div class="relative flex items-center w-full max-w-lg">
+          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-foreground z-20">
+            <svg-icon src="assets/icons/heroicons/outline/search.svg"
+              [svgClass]="'h-5 w-5 text-muted-foreground'"></svg-icon>
+          </div>
+          <input type="search" id="default-search"
+            class="block w-full p-2 pl-10 text-sm border-none rounded-lg bg-main focus:ring-0 focus:outline-none dark:focus:ring-0 dark:focus:outline-none"
+            placeholder="Search here ..." required />
+          <a
+            class="absolute right-2 flex items-center h-full cursor-pointer justify-start rounded text-muted-foreground hover:bg-card hover:text-foreground z-10">
+            <svg-icon src="assets/icons/heroicons/outline/filter.svg"
+              [svgClass]="'h-5 w-5 text-muted-foreground'"></svg-icon>
+            <span class="ml-2 text-xs font-semibold truncate text-muted-foreground">Filter</span>
+          </a>
+        </div>
       </div>
 
+      <!-- Profile menu -->
       <div class="items-center justify-end sm:order-4 md:flex md:flex-1 lg:w-0">
         <app-profile-menu></app-profile-menu>
       </div>
