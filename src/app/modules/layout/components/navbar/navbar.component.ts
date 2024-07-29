@@ -4,6 +4,7 @@ import { NavbarMobileComponent } from './navbar-mobile/navbar-mobilecomponent';
 import { ProfileMenuComponent } from './profile-menu/profile-menu.component';
 import { NavbarMenuComponent } from './navbar-menu/navbar-menu.component';
 import { AngularSvgIconModule } from 'angular-svg-icon';
+import { FilterComponent } from '../filter/filter.component';
 
 @Component({
     selector: 'app-navbar',
@@ -12,7 +13,7 @@ import { AngularSvgIconModule } from 'angular-svg-icon';
     standalone: true,
     imports: [
         AngularSvgIconModule,
-        NavbarMenuComponent,
+        FilterComponent,
         ProfileMenuComponent,
         NavbarMobileComponent,
     ],
