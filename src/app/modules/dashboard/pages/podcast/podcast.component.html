@@ -1,4 +1,10 @@
-<div class="mx-auto px-4 py-4 sm:px-8 lg:container">
+<div class="mx-auto px-4 py-4 sm:px-8 lg:container h-full "
+  style=" overflow-y: auto; -ms-overflow-style: none; scrollbar-width: none;">
+  <style>
+    .mx-10::-webkit-scrollbar {
+      display: none;
+    }
+  </style>
   <app-podcast-header></app-podcast-header>
   <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
     <app-podcast-card-banner class="col-span-2"></app-podcast-card-banner>
