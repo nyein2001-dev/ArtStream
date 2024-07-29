@@ -4,6 +4,7 @@ ShopGuard is a shopping dashboard application that provides a seamless user expe
 
 ## Features
 
+
 - **Authentication**: User authentication (login and registration) using Firebase Authentication.
 - **Dashboard**: Responsive dashboard interface for managing shopping activities.
 - **Angular Framework**: Built with Angular for scalable and maintainable front-end development.
