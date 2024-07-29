@@ -25,26 +25,31 @@
                     <div class="relative">
                         <img *ngIf="post.imageUrl" class="w-full h-auto object-cover rounded-lg" [src]="post.imageUrl"
                             alt="Post Image">
-                        <svg-icon src="assets/icons/heroicons/outline/heart-action2.svg"
-                            [svgClass]="'h-5 w-5 absolute top-5 right-5'"></svg-icon>
+                        <!-- <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                            [svgClass]="'h-5 w-5 absolute top-5 right-5'"></svg-icon> -->
+                        <span class="mr-2 text-primary ">
+                            <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                                [svgClass]="'h-5 w-5 absolute top-5 right-5'"> </svg-icon>
+                        </span>
                     </div>
                 </div>
                 <div class="pt-4">
                     <hr class="border-dashed border-border" />
                 </div>
                 <div class="flex p-4 mt-2 justify-start rounded-b-xl">
-                    <div class="flex items-center text-foreground cursor-pointer">
-                        <svg-icon src="assets/icons/heroicons/outline/heart-action.svg"
-                            [svgClass]="'h-5 w-5 mx-1'"></svg-icon>
+                    <div class="flex mr-4 items-center text-foreground cursor-pointer">
+                        <svg-icon src="assets/icons/heroicons/outline/heart.svg"
+                            [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
                         <p class="text-base font-semibold text-foreground">9.8k</p>
                     </div>
                     <div class="flex mx-4 items-center text-foreground cursor-pointer">
                         <svg-icon src="assets/icons/heroicons/outline/comment.svg"
-                            [svgClass]="'h-5 w-5 mx-1'"></svg-icon>
+                            [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
                         <p class="text-base font-semibold text-foreground">8.6k</p>
                     </div>
                     <div class="flex mx-4 items-center text-foreground cursor-pointer">
-                        <svg-icon src="assets/icons/heroicons/outline/share.svg" [svgClass]="'h-5 w-5 mx-1'"></svg-icon>
+                        <svg-icon src="assets/icons/heroicons/outline/share.svg"
+                            [svgClass]="'h-5 w-5 mr-1 text-foreground'"></svg-icon>
                         <p class="text-base font-semibold text-foreground">7.2k</p>
                     </div>
                 </div>
