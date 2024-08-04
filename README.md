@@ -32,8 +32,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository**:
 
    ```bash
-   https://github.com/nyein2001-dev/shop-guard.git
-   cd shop-guard
+   https://github.com/nyein2001-dev/ArtStream.git
+   cd ArtStream
    ```
 
 2. **Install dependencies**:
