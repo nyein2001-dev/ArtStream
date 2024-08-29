@@ -2,6 +2,7 @@
 <img src="./src/assets/icons/logo.png" alt="Art Stream" width="300" height="300">
 </p>
 
+
 # ArtStream
 
 Welcome to **ArtStream** – a dynamic platform where artists and photographers can post and sell their work. Discover and follow talented creators, view popular and recommended artists, and shop unique pieces all in one place.
